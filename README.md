@@ -51,9 +51,14 @@ useful_labels - Appropriately labels the data set with descriptive variable name
 
 ## Functions called in following order
         
-get_data() - oad and merge initial data sets
-merge_data() - load and merge initial data sets
-cbind() - select mean and STD datasets with Subject and activity
-useful_labels() - clean up column/varialble headings
-aggregate(), order() - Build independent tidy data set with the average of each variable for each activity and each subject.
-write.table() - write tidy.txt out to disk 
+* get_data() - load and merge initial data sets
+
+* merge_data() - load and merge initial data sets
+
+* cbind() - select mean and STD datasets with Subject and activity
+
+* useful_labels() - clean up column/varialble headings
+
+* aggregate(), order() - Build independent tidy data set with the average of each variable for each activity and each subject.
+
+* write.table() - write tidy.txt out to disk 
